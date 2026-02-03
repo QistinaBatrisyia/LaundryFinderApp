@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/receiptRoot"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/txtTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Laundry Proof / Receipt Photo"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_centerHorizontal="true"/>
+
+    <ImageView
+        android:id="@+id/imgReceipt"
+        android:layout_width="match_parent"
+        android:layout_height="420dp"
+        android:layout_below="@id/txtTitle"
+        android:layout_marginTop="16dp"
+        android:scaleType="centerCrop"
+        android:background="#EEEEEE"
+        android:contentDescription="Receipt Image Preview" />
+
+    <Button
+        android:id="@+id/btnTakePhoto"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="Take Photo"
+        android:layout_below="@id/imgReceipt"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="Save Photo"
+        android:layout_below="@id/btnTakePhoto"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/txtBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:textColor="#1E88E5"
+        android:layout_below="@id/btnSave"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp"/>
+</RelativeLayout>

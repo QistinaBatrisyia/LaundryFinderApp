@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Background Image -->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bg_laundry" />
+
+    <!-- White Card -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="16dp"
+        android:padding="18dp"
+        android:orientation="vertical"
+        android:background="@android:color/white">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Our Team"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="#F4A100"
+            android:layout_marginBottom="10dp"/>
+
+        <!-- Just list members (edit names later) -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Afiqah Batrisyia Binti Mohammad Yusoff (2023225708)\n2. Fatimah Az Zahra'a Binti Isma-ae Lueyi (2024988499)\n3. Qistina Batrisyia Binti Kamaruzaman (2023870534)\n4. Syasya Adriana Binti Mohamad Shukor (2023492414)"
+            android:textSize="14sp"
+            android:textColor="@android:color/black"
+            android:lineSpacingExtra="6dp"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Receipt / Laundry Proof"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_marginBottom="12dp"/>
+
+        <ImageView
+            android:id="@+id/imgPreview"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:scaleType="centerCrop"
+            android:background="#EEEEEE"
+            android:contentDescription="Preview"/>
+
+        <Button
+            android:id="@+id/btnPickImage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select Image (Camera/Gallery)"
+            android:layout_marginTop="12dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Choose purpose:"
+            android:textStyle="bold"
+            android:layout_marginTop="14dp"/>
+
+        <!-- ✅ RadioGroup makes it one-choice properly -->
+        <RadioGroup
+            android:id="@+id/rgPurpose"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="6dp">
+
+            <RadioButton
+                android:id="@+id/rbReceipt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Receipt"/>
+
+            <RadioButton
+                android:id="@+id/rbLaundry"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Laundry Proof (Before/After)"/>
+
+            <RadioButton
+                android:id="@+id/rbIssue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Report Issue (Missing/Damaged)"/>
+
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/edtNote"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Note (optional)"
+            android:layout_marginTop="10dp"/>
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:visibility="gone"
+            android:layout_marginTop="10dp"/>
+
+        <Button
+            android:id="@+id/btnUpload"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Upload And Continue"
+            android:layout_marginTop="10dp"/>
+
+        <Button
+            android:id="@+id/btnMyProofs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="My Records"
+            android:layout_marginTop="10dp"/>
+
+    </LinearLayout>
+</ScrollView>
+

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="tq_primary">#4FBBC2</color>
+    <color name="tq_primary_dark">#2EA7AF</color>
+
+    <color name="tq_bg">#EAF8FA</color>
+    <color name="tq_card">#FFFFFF</color>
+
+    <color name="tq_text">#1D2B2E</color>
+    <color name="tq_hint">#8BA6AA</color>
+
+    <color name="tq_stroke">#D7EFF2</color>
+    <color name="tq_shadow">#22000000</color>
+
+</resources>

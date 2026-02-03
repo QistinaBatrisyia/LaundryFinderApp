@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Base application theme -->
+    <style name="Theme.LaundryFinderApp" parent="Theme.Material3.Light.NoActionBar">
+
+        <!-- Primary colors (soft turquoise) -->
+        <item name="colorPrimary">#6EC6C4</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+
+        <item name="colorSecondary">#A7E0DE</item>
+        <item name="colorOnSecondary">#004D4B</item>
+
+        <!-- Background -->
+        <item name="android:windowBackground">#F5FAFA</item>
+
+        <!-- Status bar -->
+        <item name="android:statusBarColor">#6EC6C4</item>
+        <item name="android:windowLightStatusBar">true</item>
+
+        <!-- Default font -->
+        <item name="android:fontFamily">sans-serif</item>
+
+    </style>
+
+</resources>
+

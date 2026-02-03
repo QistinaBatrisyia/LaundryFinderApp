@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "990027437508",
+    "project_id": "laundryfinderapp",
+    "storage_bucket": "laundryfinderapp.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:990027437508:android:4e92c033bb223168d5c091",
+        "android_client_info": {
+          "package_name": "com.example.laundryfinderapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4nnrUJc404E-WE7qAvJRvAwC7xeKsJB0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

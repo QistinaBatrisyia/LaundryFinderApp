@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- App -->
+    <string name="app_name">Laundry Finder</string>
+
+    <!-- Google Maps -->
+    <string name="google_maps_key">AIzaSyCzgzJxLhlANDa7NFhftKLpO6cD5urbrX4</string>
+
+    <!-- Login Screen -->
+    <string name="login_subtitle">Find Nearby Laundry &amp; Set Reminder.</string>
+    <string name="welcome">Welcome</string>
+    <string name="login_info">Please login with your information.</string>
+    <string name="email">Email Address</string>
+    <string name="password">Password</string>
+    <string name="login">Log In</string>
+    <string name="remember_me">Remember me</string>
+    <string name="register_prompt">Don’t have an account? Sign up</string>
+
+    <!-- Sign Up screen -->
+    <string name="signup_subtitle">Create a new account</string>
+    <string name="signup_title">Create Account</string>
+    <string name="signup_info">Fill in your details to get started.</string>
+    <string name="signup">Sign Up</string>
+    <string name="login_prompt">Already have an account? Login</string>
+    <string name="name">Name</string>
+
+
+
+    <!-- Messages -->
+    <string name="error_fill_all">Please fill in email and password.</string>
+    <string name="login_success">Login successful</string>
+    <string name="invalid_login">Invalid email or password</string>
+    <string name="account_not_found">Account not found</string>
+
+</resources>
+
