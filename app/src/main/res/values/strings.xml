@@ -5,7 +5,7 @@
     <string name="app_name">Laundry Finder</string>
 
     <!-- Google Maps -->
-    <string name="google_maps_key">AIzaSyCzgzJxLhlANDa7NFhftKLpO6cD5urbrX4</string>
+    <string name="google_maps_key">API_KEY</string>
 
     <!-- Login Screen -->
     <string name="login_subtitle">Find Nearby Laundry &amp; Set Reminder.</string>
